@@ -1,2 +1,2 @@
 #!/bin/bash
-./serverinstall_90_2326
+./server/serverinstall_90_2326

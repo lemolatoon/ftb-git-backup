@@ -1,4 +1,4 @@
-## 建て方
+## 環境構築
 ## windowsの場合
 powershellを立ち上げ、マインクラフト用のディレクトなどに`cd`で移動。
 ```powershell

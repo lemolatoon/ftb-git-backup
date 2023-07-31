@@ -1,5 +1,5 @@
 # %Macの場合もLinuxの手順を踏んでください。
-## 環境構築
+# 環境構築
 ```
 git clone git@github.com:lemolatoon/ftb-docker.git
 ```
@@ -47,7 +47,7 @@ cd server
 cd server
 ./start.sh
 ```
-## 始めるとき
+# 始めるとき
 ```
 git fetch origin
 git rebase origin/master
@@ -61,7 +61,24 @@ git rebase origin/master
 ./scripts/linux/restore.sh
 ```
 
-## 終わるとき【重要！】
+# サーバを外に開放する。
+ngrokを使う。PORTは25565
+
+https://zenn.dev/book000/articles/ngrok-minecraft-server
+
+1. ngrokをinstallする。
+    - https://ngrok.com/ へ登録する。
+    - ngrok のコマンドラインツールをダウンロード
+    - ngrokのアカウントを連携 (`ngrok authtoken <TOKEN>`)
+2. scriptを実行する。
+```bash
+./scripts/win/open.ps1
+# または
+./scripts/linux/open.sh
+```
+`ngrok tcp --region ap 25565`
+
+# 終わるとき【重要！】
 サーバーのコンソールで
 ```
 ftbbackups start backup

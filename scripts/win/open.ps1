@@ -1,0 +1,1 @@
+.\ngrok.exe tcp --region ap 25565

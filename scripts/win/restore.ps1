@@ -1,0 +1,1 @@
+Expand-Archive -Path backups/backup.zip -DestinationPath server/ -Force

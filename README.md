@@ -1,3 +1,4 @@
+# %Macの場合もLinuxの手順を踏んでください。
 ## 環境構築
 ```
 git clone git@github.com:lemolatoon/ftb-docker.git
